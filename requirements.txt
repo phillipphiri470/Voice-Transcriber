@@ -1,0 +1,20 @@
+# Project 2 — Speech Transcription System
+# Install with: pip install -r requirements.txt
+
+openai-whisper>=20231117
+soundfile>=0.12.1
+noisereduce>=3.0.2
+python-docx>=1.1.0
+
+# Live microphone recording
+pyaudio>=0.2.14
+
+# Streamlit web UI
+streamlit>=1.33.0
+
+# Optional: faster inference (highly recommended if you have a GPU)
+# faster-whisper>=1.0.0
+
+# Optional: speaker identification
+# pyannote.audio>=3.1.0
+# torch>=2.0.0   (required by pyannote)
